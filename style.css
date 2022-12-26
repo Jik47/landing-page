@@ -60,14 +60,17 @@ button {
 }
 
 h2 {
-    
+    text-align: center;
 }
 
-.avis {
+.img-row {
     display: flex;
     justify-content: space-around;
+    padding: 18px 380px;
 }
 
 .feedback {
-    max-width: 100px;
+    padding: 0 6px;
+    width: 0;
+    min-width: 100%;
 }
