@@ -66,11 +66,35 @@ h2 {
 .img-row {
     display: flex;
     justify-content: space-around;
-    padding: 18px 380px;
+    padding: 18px 180px;
 }
 
 .feedback {
     padding: 0 6px;
     width: 0;
     min-width: 100%;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 80px 200px;
+}
+
+.quote-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    margin: 0px;
+}
+
+.quote-owner {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    font-weight: bold;
 }
