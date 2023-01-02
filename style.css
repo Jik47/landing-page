@@ -9,7 +9,7 @@ header {
     align-items: center;
 }
 
-.logo {
+.logo, h3 {
     font-size: 24px;
     font-weight: bold;
     color: #f9faf8;
@@ -44,7 +44,7 @@ ul {
     margin: 0;
 }
 
-.subtitle {
+.subtitle, p {
     color: #e5e7eb;
     font-size: 18px;
     margin: 8px;
@@ -78,6 +78,7 @@ h2 {
     width: auto;
     min-width: 100%; */
     max-width: 100px;
+    color: #1f2937;
 }
 
 .quote {
@@ -116,4 +117,10 @@ h2 {
 
 p, h3 {
     margin: 0px;
+}
+
+/* style the last sign up btn  */
+.join-btn {
+    border: white 2px solid;
+    padding: 0px 16px;
 }
