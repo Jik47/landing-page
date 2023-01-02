@@ -63,16 +63,21 @@ h2 {
     text-align: center;
 }
 
-.img-row {
+.container {
     display: flex;
-    justify-content: space-around;
-    padding: 18px 180px;
+    justify-content: center;
+    /* padding: 18px 180px; */
+}
+
+.element {
+    margin: 30px;
 }
 
 .feedback {
-    padding: 0 6px;
-    width: 0;
-    min-width: 100%;
+    /* padding: 0 6px;
+    width: auto;
+    min-width: 100%; */
+    max-width: 100px;
 }
 
 .quote {
