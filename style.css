@@ -2,7 +2,7 @@ body {
     margin: 0;
 }
 
-header {
+header, footer {
     background-color: #1f2937;
     display: flex;
     justify-content: space-around;
@@ -126,4 +126,8 @@ p, h3 {
     height: 29px;
     padding: 0px 16px;
     align-self: center;
+}
+
+footer {
+    padding: 12px;
 }
