@@ -44,11 +44,10 @@ ul {
     margin: 0;
 }
 
-.subtitle, p {
+.subtitle{
     color: #e5e7eb;
     font-size: 18px;
     margin: 8px;
-
 }
 
 button {
