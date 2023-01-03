@@ -73,6 +73,11 @@ h2 {
     margin: 30px;
 }
 
+img {
+    border: #3882f6 solid 3px;
+    border-radius: 8px;
+}
+
 .feedback {
     /* padding: 0 6px;
     width: auto;
